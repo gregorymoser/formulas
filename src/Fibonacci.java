@@ -38,7 +38,7 @@ public class Fibonacci {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		
-		Fibonacci f1 = new Fibonacci(n);
+		Fibonacci f1 = new Fibonacci();
 		f1.allFib(n);
 		
 	}
